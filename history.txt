@@ -1,16 +1,5 @@
-    1  nogit help git
     2  git help git
     3  git remote add origin git@github.com:ancuta/try_git.git
-    4  git remote add origin git@github.com:ancuta/test_remote.git
-    5  git remote add origin git@github.com:ancuta
-    6  git clone git@github.com:ancuta/try_git.git
-    7  git config ancuta
-    8  D:
-    9  cd D:
-   10  ls
-   11  locate learning
-   12  cd learning/
-   13  ls
    14  git init
    15  git add *.java
    16  git add README
@@ -19,45 +8,23 @@
    19  cd git
    20  git clone git://github.com/ancuta/try_git.git
    21  git status
-   22  ls
-   23  cd try_git/
-   24  git status
-   25  cd ..
    26  git clone git://github.com/ancuta/learning
    27  cd learning/
-   28  git stauts
-   29  git status
    30  git status
    31  git add *.*
-   32  git status
-   33  git status
    34  git add README
-   35  git status
-   36  git status
    37  git add src/ancuta/pattern/singleton/SimpleSingleton.java
    38  git status
-   39  cat .gitignore
-   40  git diff
-   41  git status
-   42  git diff src/ancuta/pattern/singleton/SimpleSingleton.java
-   43  git diff
    44  echo '# test readme echo' >> README 
-   45  git commit
    46  git commit -m "My first commit on git"
    47  git status
-   48  git status
    49  git add README
-   50  git commit
    51  git commit -m "commit README"
    52  git log
    53  git log -p -2
    54  gitk
-   55  git remote add origin https://github.com/ancuta/learning.git
    56  git push -u origin master
    57  git remote add origin git@github.com:ancuta/learning.git
-   58  history
-   59  ls
-   60  cd ..
    61  mkdir learningtest
    62  cd learningtest/
    63  git clone git://github.com/ancuta/learning
@@ -66,11 +33,8 @@
    66  cd learning
    67  git status
    68  git remote show origin
-   69  git remote
    70  git remote -v
-   71  git remote add *.*
    72  git remote add a-learning git://github.com/ancuta/learning
-   73  git fetch a-learning
    74  git pull
    75  git clone
    76  git push origin master
@@ -79,44 +43,14 @@
    79  git clone a-learning
    80  git clone git://github.com/ancuta/learning
    81  git push git://github.com/ancuta/learning
-   82  git push simple git://github.com/ancuta/learning
-   83  git pull
    84  git pull
    85  git push a-learning master
    86* git remote add origin a-le
    87  git push git@github.com:ancuta/learning master
-   88  ssh-all -l
-   89  ssh -all -l
-   90  ssh -l
-   91  ssh-add -l
-   92  ssh-add -l
    93  git push git@github.com:ancuta/learning master
-   94  ssh -l
-   95  ssh-add -l
-   96  ssh -T ancuta@github.com
-   97  ssh-add -l
-   98  ssh-add
    99  ssh-keygen.exe 
-  100  ssh-add -l
-  101  ssh-add
   102  eval 'ssh-agent'
-  103  ssh-agent
-  104  ssh-add -l
-  105  eval 'ssh-agent'
-  106  ssh-add
-  107  . .agentinfo
-  108  ssh-agent
-  109  ssh-keygen.exe 
-  110  eval 'ssh-agent'
   111  ssh-add
   112  git push git@github.com:ancuta/learning master
-  113  git push origin master
-  114  git remote show a-learning
-  115  git push
-  116  git push simple
-  117  git push simple git@github.com:ancuta/learning master
-  118  ssh-add
-  119  git push simple git@github.com:ancuta/learning master
-  120  git push git@github.com:ancuta/learning master
   121  git fetch origin
   122  history > history.txt
